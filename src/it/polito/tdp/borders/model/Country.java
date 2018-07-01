@@ -108,7 +108,7 @@ public class Country {
 	 */
 	@Override
 	public String toString() {
-		return String.format("[%s=%s]", stateAbb, stateName);
+		return this.stateAbb;
 	}
 	
 	
